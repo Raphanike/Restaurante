@@ -9,7 +9,7 @@ export const Cores = {
 }
 
 export const Breakpoints = {
-  desktop: '1025px',
+  desktop: '1024px',
   tablet: '768px'
 }
 

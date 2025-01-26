@@ -3,7 +3,7 @@ import { Body, Container } from './style'
 
 import { useLocation } from 'react-router-dom'
 import CardMenu from '../CardMenu'
-import Loader from '../../Loader'
+import Loader from '../Loader'
 
 export type Props = {
   restaurants?: Restaurant[]

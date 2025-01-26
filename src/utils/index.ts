@@ -5,10 +5,6 @@ export const formataPreco = (preco = 0) => {
   }).format(preco)
 }
 
-type Menu = {
-  preco: number
-}
-
 export const getTotalPreco = (items: Menu[]) => {
   return items.reduce((acumulador, valorAtual) => {
     // eslint-disable-next-line @typescript-eslint/no-non-null-assertion

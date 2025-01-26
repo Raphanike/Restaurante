@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Cores } from '../GlobalStyles'
+import { Cores } from '../../GlobalStyles'
 
 export const Container = styled.div`
   min-height: 360px;

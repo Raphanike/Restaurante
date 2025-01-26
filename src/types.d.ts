@@ -17,5 +17,3 @@ declare type Restaurant = {
   destacado: boolean
   cardapio: Menu[]
 }
-
-export {}

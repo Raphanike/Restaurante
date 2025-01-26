@@ -4,12 +4,17 @@ import HeaderPerfil from '../../components/HeaderPerfil'
 
 import { useParams } from 'react-router-dom'
 import { useGetMenuQuery } from '../../services/api'
+import Loader from '../../components/Loader'
 
 const Perfil = () => {
   const { id } = useParams()
 
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
   const { data: onMenu, isLoading } = useGetMenuQuery(id!)
+
+  if (isLoading) {
+    return <Loader />
+  }
 
   return (
     <>
